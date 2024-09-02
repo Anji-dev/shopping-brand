@@ -1,0 +1,80 @@
+body {
+  background-color: #5c33ff;
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin-top: 50px;
+}
+.price-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.price-brand {
+  border: 5px solid transparent;
+  background-color: white;
+  color: black;
+  text-align: center;
+  flex-basis: 220px;
+  height: 300px;
+  border-radius: 4%;
+  padding: 15px;
+  margin: 0px;
+}
+.price-top {
+  text-align: center;
+  color: white;
+}
+.price-top > h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.price-top > p {
+  font-weight: lighter;
+  line-height: 0;
+}
+.aa {
+  color: goldenrod;
+  font-size: 20px;
+  font-weight: 500;
+}
+.ab {
+  color: #5c33ff;
+}
+.abs {
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.price-list {
+  list-style-type: none;
+  color: gray;
+  line-height: 1.5;
+  text-align: center;
+}
+.btn-price {
+  color: whitesmoke;
+  background-color: #5c33ff;
+  border-radius: 3%;
+  border: 5px solid transparent;
+  padding: 5px;
+  margin: 10px;
+}
+.price-brands {
+  border: 5px solid transparent;
+  background-color: white;
+  color: black;
+  text-align: center;
+  flex-basis: 220px;
+  height: 350px;
+  border-radius: 4%;
+  padding: 15px;
+  margin: 0px;
+}
+@media (min-width: 400px) and (max-width: 900px) {
+  .price-container {
+    height: 100%;
+  }
+}
